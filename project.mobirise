@@ -2884,7 +2884,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/filet-de-porco-799x500.jpg",
                 "alt": "Filet de porco",
                 "customStyle1": "display-7",
-                "caption": "<b>SEGUNDA-FEIRA</b><br><br>FILET DE PORCO<br>R$ 17,40",
+                "caption": "<b>SEGUNDA-FEIRA</b><br>FILET DE PORCO<br>R$ 17,40",
                 "active": false
               },
               {
@@ -2896,7 +2896,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/medalho-de-filet-799x500.jpg",
                 "alt": "Medalhão de filet",
                 "customStyle1": "display-7",
-                "caption": "<b>TERÇA-FEIRA</b>\n<br>\n<br>MEDALHÃO DE FILET<br>R$ 15,30",
+                "caption": "<b>TERÇA-FEIRA</b>\n<br>MEDALHÃO DE FILET<br>R$ 15,30",
                 "active": false
               },
               {
@@ -2908,7 +2908,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/linguado-de-grelhado-799x500.jpg",
                 "alt": "Linguado de grelhado",
                 "customStyle1": "display-7",
-                "caption": "<b>QUARTA-FEIRA\n</b><br><br>LINGUADO DE GRELHADO<br>R$ 20,10",
+                "caption": "<b>QUARTA-FEIRA\n</b><br>LINGUADO DE GRELHADO<br>R$ 20,10",
                 "active": false
               },
               {
@@ -2920,7 +2920,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/massas-com-frutos-do-mar-799x500.jpg",
                 "alt": "Massas com frutos do mar",
                 "customStyle1": "display-7",
-                "caption": "<b>QUINTA-FEIRA\n</b><br>\n<br>MASSAS COM FRUTOS DO MAR&nbsp;<br>R$ 1840",
+                "caption": "<b>QUINTA-FEIRA\n</b><br>MASSAS COM FRUTOS DO MAR&nbsp;<br>R$ 1840",
                 "active": false
               },
               {
@@ -2932,7 +2932,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/bacalhau-de-gadua-799x500.jpg",
                 "alt": "Bacalhau Gadua Mohua",
                 "customStyle1": "display-7",
-                "caption": "<b>SEXTA-FEIRA\n</b><br>\n<br>BACALHAU GADUA MOHUA&nbsp;<br>R$ 18,30",
+                "caption": "<b>SEXTA-FEIRA\n</b><br>BACALHAU GADUA MOHUA&nbsp;<br>R$ 18,30",
                 "active": false
               },
               {
@@ -2944,7 +2944,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/feijoada-799x500.jpg",
                 "alt": "Feijoada",
                 "customStyle1": "display-7",
-                "caption": "<b>SÁBADO</b><br><br>FEIJOADA<br>R$ 17,50",
+                "caption": "<b>SÁBADO</b><br>FEIJOADA<br>R$ 17,50",
                 "active": false
               },
               {
@@ -2956,7 +2956,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/frango-a-molho-pardo-799x500.jpg",
                 "alt": "Frango a molho pardo",
                 "customStyle1": "display-7",
-                "caption": "<b>DOMINGO</b><br>\n<br>FRANGO A MOLHO PARDO<br>R$ 19,60",
+                "caption": "<b>DOMINGO</b><br>FRANGO A MOLHO PARDO<br>R$ 19,60",
                 "active": true
               }
             ]
@@ -3329,7 +3329,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/antarctica-garrafa-600-ml-3-600x600.jpg",
                 "alt": "cerveja antarctica garrafa",
                 "customStyle1": "display-5",
-                "caption": "CERVEJA ANTARTICA<br>GARRAFA 600 ml<br>R$ 7,10<br><br><br>",
+                "caption": "CERVEJA ANTARTICA<br>GARRAFA 600 ml<br>R$ 7,10<br>",
                 "active": true
               },
               {
@@ -3341,7 +3341,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/antarctica-lata-350-ml-600x600.jpg",
                 "alt": "cerveja antarctiva lata",
                 "customStyle1": "display-7",
-                "caption": "CERVEJA ANTARCTICA<br>LATA 350 ml<br>R$ 3,49<br><br>",
+                "caption": "CERVEJA ANTARCTICA<br>LATA 350 ml<br>R$ 3,49<br>",
                 "active": false
               },
               {
