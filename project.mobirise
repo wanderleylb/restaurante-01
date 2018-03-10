@@ -453,7 +453,7 @@
             }
           },
           "_name": "menu1",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\">\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\" checked>\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#430404\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"page1.html#header2-v\">\n                         <img src=\"@PROJECT_PATH@/assets/images/cardpio-4.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\"></a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\">\n                        </a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-2\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"page6.html#toggle2-4n\"><span class=\"mbri-question mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 50px;\"></span>&nbsp;QUEM SOMOS</a> <a class=\"btn btn-sm btn-primary\" href=\"page7.html#footer2-3e\"><span class=\"mbri-map-pin mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 50px;\"></span>&nbsp;LOCALIZAÇÃO / CONTATO</a> <a class=\"btn btn-sm btn-primary\" href=\"http://webmobile.visualmed.tv.br/index.html\"><span class=\"mbri-edit mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 50px;\"></span>&nbsp;SUGESTÕES / CRÍTICAS &nbsp;&nbsp;</a></div>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\">\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\" checked>\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#430404\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"page1.html#header2-v\">\n                         <img src=\"@PROJECT_PATH@/assets/images/cardpio-4.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\"></a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\">\n                        </a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-2\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"page6.html#toggle2-4n\"><span class=\"mbri-question mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 50px;\"></span>&nbsp;QUEM SOMOS</a> <a class=\"btn btn-sm btn-primary\" href=\"page7.html#footer2-3e\"><span class=\"mbri-map-pin mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 50px;\"></span>&nbsp;LOCALIZAÇÃO / CONTATO</a> <a class=\"btn btn-sm btn-primary\" href=\"http://webmobile.visualmed.tv.br/index.html\"><span class=\"mbri-edit mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 50px;\"></span>&nbsp;SUGESTÕES / CRÍTICAS &nbsp;&nbsp;</a> <a class=\"btn btn-sm btn-primary\" href=\"tel:31987196326\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 50px;\"></span>&nbsp;LIGUE PARA NÓS</a></div>\n        </div>\n    </nav>\n</section>",
           "_anchor": "menu1-7v",
           "_isUserblock": true,
           "_cid": "qLFIIHajSd",
@@ -1145,7 +1145,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/hamburger-1200x750-800x500.jpg",
                 "alt": "HAMBURGUER",
                 "customStyle1": "display-7",
-                "caption": "HAMBURGUER&nbsp;<br>R$ 8,50",
+                "caption": "HAMBURGUER &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 8,50",
                 "active": false
               },
               {
@@ -1157,7 +1157,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/coxinha-1200x750-800x500.jpg",
                 "alt": "COXINHA",
                 "customStyle1": "display-7",
-                "caption": "COXINHA<br>3,30 &nbsp;<br>",
+                "caption": "<br><br><br><br><br><br><br><br>COXINHA &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 3,30&nbsp;<br>",
                 "active": false
               },
               {
@@ -1169,7 +1169,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/enrolado-de-salsicha-1200x750-800x500.jpg",
                 "alt": "ENROLADO DE SALSICHA",
                 "customStyle1": "display-7",
-                "caption": "ENROLADO DE SALSILHA<br>R$ 4,10",
+                "caption": "ENROLADO DE SALSILHA &nbsp; &nbsp; &nbsp;R$ 4,10",
                 "active": false
               },
               {
@@ -1181,7 +1181,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/esfiha-1200x750-800x500.jpg",
                 "alt": "ESFIHA",
                 "customStyle1": "display-7",
-                "caption": "ESPIHA<br>R$ 3,70",
+                "caption": "ESPIHA &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 3,70",
                 "active": false
               },
               {
@@ -1193,7 +1193,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/po-de-quijo-1200x750-800x500.jpg",
                 "alt": "PÃO DE QUEIJO",
                 "customStyle1": "display-7",
-                "caption": "PÃO DE QUEIJO<br>R$ 2,00",
+                "caption": "PÃO DE QUEIJO &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 2,00",
                 "active": false
               },
               {
@@ -1205,7 +1205,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/pizza-1200x750-800x500.jpg",
                 "alt": "PEDAÇO DE PIZZA",
                 "customStyle1": "display-7",
-                "caption": "PIZZA PEDAÇO<br>R$ 4,40",
+                "caption": "PIZZA PEDAÇO &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 4,40",
                 "active": false
               },
               {
@@ -1217,7 +1217,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/quibe-1200x750-800x500.jpg",
                 "alt": "QUIBE",
                 "customStyle1": "display-7",
-                "caption": "QUIBE<br>R$ 3,30",
+                "caption": "QUIBE &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 3,30",
                 "active": false
               },
               {
@@ -1229,7 +1229,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/empada-1200x750-800x500.jpg",
                 "alt": "EMPADA",
                 "customStyle1": "display-7",
-                "caption": "EMPADA<br>R$ 3,30",
+                "caption": "EMPADA &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 3,30",
                 "active": true
               }
             ]
@@ -1371,7 +1371,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/suco-de-caj-1200x1000-800x666.jpg",
                 "alt": "SUCO DE CAJÚ",
                 "customStyle1": "display-2",
-                "caption": "SUCO DE CAJU<br>R$ 4,30",
+                "caption": "<br>SUCO DE CAJU &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 4,30",
                 "active": true
               },
               {
@@ -1383,7 +1383,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/suco-de-goiaba-1200x1000-767x639.jpg",
                 "alt": "SUCO DE MELANCIA",
                 "customStyle1": "display-7",
-                "caption": "SUCO DE ACEROLA<br>R$ 4,10",
+                "caption": "SUCO DE ACEROLA &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 4,10",
                 "active": false
               },
               {
@@ -1395,7 +1395,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/suco-de-melancia-1200x1000-800x665.jpg",
                 "alt": "SUCO DE MELANCIA",
                 "customStyle1": "display-7",
-                "caption": "SUCO DE MELANCIA<br>R$ 3,80",
+                "caption": "SUCO DE MELANCIA &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 3,80",
                 "active": false
               },
               {
@@ -1407,7 +1407,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/suco-de-laranja-1200x1000-800x665.jpg",
                 "alt": "SUCO DE LARANJA",
                 "customStyle1": "display-7",
-                "caption": "SUCO DE MARACUJÁ<br>R$ 3,60",
+                "caption": "SUCO DE MARACUJÁ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 3,60",
                 "active": false
               },
               {
@@ -1419,7 +1419,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/suco-de-limo-1200x1000-800x665.jpg",
                 "alt": "SUCO DE LIMÃO",
                 "customStyle1": "display-7",
-                "caption": "SUCO DE LIMÃO<br>R$ 3,80",
+                "caption": "SUCO DE LIMÃO &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 3,80",
                 "active": false
               },
               {
@@ -1431,7 +1431,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/suco-de-hortel-1200x1000-800x666.jpg",
                 "alt": "SUCO DE HORTELÃ",
                 "customStyle1": "display-7",
-                "caption": "SUCO DE HORTELÃ<br>R$ 4,10",
+                "caption": "SUCO DE HORTELÃ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 4,10",
                 "active": false
               },
               {
@@ -1443,7 +1443,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/suco-de-morango-1200x1000-800x665.jpg",
                 "alt": "SUCO DEMORANGO",
                 "customStyle1": "display-7",
-                "caption": "SUCO DE MORANGO<br>R$ 4,30",
+                "caption": "SUCO DE MORANGO &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 4,30",
                 "active": false
               },
               {
@@ -1455,7 +1455,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/suco-de-uva-1200x1000-800x665.jpg",
                 "alt": "SUCO DE UVA",
                 "customStyle1": "display-7",
-                "caption": "SUCO DE UVA<br>R$ 4,10",
+                "caption": "SUCO DE UVA &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 4,10",
                 "active": false
               }
             ]
@@ -1863,7 +1863,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/coca-cola-600x600.jpg",
                 "alt": "COCA-COLA",
                 "customStyle1": "display-7",
-                "caption": "COCA-COLA&nbsp;<br>R$ 2,70",
+                "caption": "COCA-COLA &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 2,70",
                 "active": false
               },
               {
@@ -1875,7 +1875,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/pepsi-600x600.jpg",
                 "alt": "PEPSI",
                 "customStyle1": "display-7",
-                "caption": "PEPSI<br>R$ 2,50",
+                "caption": "PEPSI &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 2,50",
                 "active": false
               },
               {
@@ -1887,7 +1887,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/fanta-600x600.jpg",
                 "alt": "FANTA",
                 "customStyle1": "display-7",
-                "caption": "FANTA&nbsp;<br>2,60",
+                "caption": "FANTA &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 2,60",
                 "active": false
               },
               {
@@ -1899,7 +1899,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/guaran-600x600.jpg",
                 "alt": "GUARANÁ ANTARCTICA",
                 "customStyle1": "display-7",
-                "caption": "GUARANÁ ANTARCTICA<br>R$ 2,60<br>",
+                "caption": "GUARANÁ ANTARCTICA &nbsp; &nbsp; &nbsp; &nbsp;R$ 2,60<br>",
                 "active": false
               },
               {
@@ -1911,7 +1911,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/kuat-1200x1000-800x665.jpg",
                 "alt": "GUARANÁ KUAT",
                 "customStyle1": "display-7",
-                "caption": "KUAT&nbsp;<br>2,60",
+                "caption": "KUAT &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 2,60",
                 "active": false
               },
               {
@@ -1923,7 +1923,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/soda-limonada-1200x1000-800x665.jpg",
                 "alt": "SODA",
                 "customStyle1": "display-7",
-                "caption": "SOLA LIMONADA<br>2,60",
+                "caption": "SODA LIMONADA &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 2,60",
                 "active": false
               },
               {
@@ -1935,7 +1935,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/gua-mineral-gasosa-1200x1000-800x665.jpg",
                 "alt": "MINERAL SEM GÁS",
                 "customStyle1": "display-7",
-                "caption": "MINERAL COM GÁS<br>2,40<br>",
+                "caption": "MINERAL COM &nbsp;GÁS &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 2,40<br>",
                 "active": false
               },
               {
@@ -1947,7 +1947,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/gua-mineral-sem-gs-1-600x600.jpg",
                 "alt": "MINERAL GASOSA",
                 "customStyle1": "display-7",
-                "caption": "MINERAL SEM GÁS<br>2,10",
+                "caption": "MINERAL SEM GÁS &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$2,10",
                 "active": true
               }
             ]
@@ -2122,7 +2122,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/bombons-2-799x499.jpg",
                 "alt": "Bombons",
                 "customStyle1": "display-7",
-                "caption": "BOMBONS<br>R$ 1,00 Unidade",
+                "caption": "BOMBONS &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 1,00&nbsp;",
                 "active": false
               },
               {
@@ -2134,7 +2134,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/caf-com-leite-799x500.jpg",
                 "alt": "Café com leite",
                 "customStyle1": "display-7",
-                "caption": "CAFÉ COM LEITE<br>R$ 1,90",
+                "caption": "CAFÉ COM LEITE &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 1,90",
                 "active": false
               },
               {
@@ -2146,7 +2146,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/cafezinho-799x500.jpg",
                 "alt": "Cafezinho",
                 "customStyle1": "display-7",
-                "caption": "CAFEZINHO<br>R$ 1,30",
+                "caption": "CAFEZINHO &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 1,30",
                 "active": false
               },
               {
@@ -2158,7 +2158,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/capuccino-799x500.jpg",
                 "alt": "Capuccino",
                 "customStyle1": "display-7",
-                "caption": "CAPUCCINO<br>R$ 2,40",
+                "caption": "CAPUCCINO &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 2,40",
                 "active": false
               },
               {
@@ -2170,7 +2170,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/chiclets-1-800x500.jpg",
                 "alt": "Chiclets",
                 "customStyle1": "display-7",
-                "caption": "CHICLETS<br>R$ 0,90",
+                "caption": "CHICLETS &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 0,90",
                 "active": false
               },
               {
@@ -2182,7 +2182,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/halls-1-799x500.jpg",
                 "alt": "Halls",
                 "customStyle1": "display-7",
-                "caption": "HALLS<br>R$ 1,70",
+                "caption": "HALLS &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 1,70",
                 "active": false
               },
               {
@@ -2194,7 +2194,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/pipoca-pop-corn-799x500.jpg",
                 "alt": "Pipoca Pop Corn",
                 "customStyle1": "display-7",
-                "caption": "PIPOCA POP CORN<br>R$ 3,10",
+                "caption": "PIPOCA POP CORN &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 3,10",
                 "active": false
               },
               {
@@ -2206,7 +2206,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/toddynho-799x499.jpg",
                 "alt": "Toddynho",
                 "customStyle1": "display-7",
-                "caption": "TODDYNHO<br>R$ 1,80",
+                "caption": "TODDYNHO &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 1,80",
                 "active": true
               }
             ]
@@ -2348,7 +2348,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/campari-3-600x600.jpg",
                 "alt": "Campari",
                 "customStyle1": "display-7",
-                "caption": "CAMPARI&nbsp;<br>R$ 2,70 dose",
+                "caption": "CAMPARI &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 2,70",
                 "active": true
               },
               {
@@ -2360,7 +2360,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/cuba-livre-600x600.jpg",
                 "alt": "Cuba livre",
                 "customStyle1": "display-7",
-                "caption": "CUBA LIBRE<br>R$ 5,30",
+                "caption": "CUBA LIBRE &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 5,30",
                 "active": false
               },
               {
@@ -2372,7 +2372,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/rum-bacardi-600x600.jpg",
                 "alt": "Rum Bacardi",
                 "customStyle1": "display-7",
-                "caption": "RUM BACARDI<br>R$ 3,40 dose",
+                "caption": "RUM BACARDI &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 3,40",
                 "active": false
               },
               {
@@ -2384,7 +2384,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/rum-montilla-600x600.jpg",
                 "alt": "Rum Montilla",
                 "customStyle1": "display-7",
-                "caption": "RUM MONTILLA<br>R$ 3,20 dose",
+                "caption": "RUM MONTILLA &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 3,20",
                 "active": false
               },
               {
@@ -2396,7 +2396,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/vodka-orloff-600x600.jpg",
                 "alt": "Rum Orloff",
                 "customStyle1": "display-7",
-                "caption": "VODKA ORLOFF<br>R$ 4,50 dose",
+                "caption": "VODKA ORLOFF &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 4,50",
                 "active": false
               },
               {
@@ -2408,7 +2408,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/vodka-smirnoff-2-600x600.jpg",
                 "alt": "Rum Smirnoff",
                 "customStyle1": "display-7",
-                "caption": "VODK SMIRNOFF<br>R$ 4,70 dose",
+                "caption": "VODK SMIRNOFF &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 4,70&nbsp;",
                 "active": false
               },
               {
@@ -2420,7 +2420,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/whisky-escocs-ballantines-2-600x600.jpg",
                 "alt": "Whisky Ballantine's",
                 "customStyle1": "display-7",
-                "caption": "WHISKY BALLANTINE'S<br>R$ 13,60 a dose",
+                "caption": "WHISKY BALLANTINE'S &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 13,60&nbsp;",
                 "active": false
               },
               {
@@ -2432,7 +2432,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/whisky-scotch-red-label-2-600x600.png",
                 "alt": "Whisky Red Label",
                 "customStyle1": "display-7",
-                "caption": "WHISKY RED LABEL<br>R$ 12,20 a dose",
+                "caption": "WHISKY RED LABEL &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 12,20&nbsp;",
                 "active": false
               }
             ]
@@ -2575,7 +2575,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/abrobrinha-recheada-com-linguia-1-799x499.jpg",
                 "alt": "Abrobrinha recheada com linguiça",
                 "customStyle1": "display-7",
-                "caption": "ABOBRINHA RECHEADA COM LINGUIÇA<br>R$ 17,40",
+                "caption": "ABOBRINHA RECHEADA COM LINGUIÇA &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 17,40",
                 "active": false
               },
               {
@@ -2587,7 +2587,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/antepasto-de-beringela-799x497.jpg",
                 "alt": "Antepasto de beringela",
                 "customStyle1": "display-7",
-                "caption": "ANTEPASTO DE BERINGELA<br>R$ 9,60",
+                "caption": "ANTEPASTO DE BERINGELA<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 9,60",
                 "active": false
               },
               {
@@ -2611,7 +2611,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/batata-assada-crocante-799x500.jpg",
                 "alt": "Batata assada crocante",
                 "customStyle1": "display-7",
-                "caption": "BATATA ASSADA&nbsp;<br>CROCANTE<br>R$ 15,30",
+                "caption": "BATATA ASSADA&nbsp;CROCANTE &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 15,30",
                 "active": false
               },
               {
@@ -2623,7 +2623,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/batata-hasselback-799x500.jpg",
                 "alt": "Batata Hasselback",
                 "customStyle1": "display-7",
-                "caption": "BATATA HASSELBACK<br>R$ 17,40",
+                "caption": "BATATA HASSELBACK &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 17,40",
                 "active": false
               },
               {
@@ -2635,7 +2635,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/bolinho-de-arraz-com-parmezo-799x500.jpg",
                 "alt": "Bolinho de arroz com parmezão",
                 "customStyle1": "display-7",
-                "caption": "BOLINHO DE ARROZ COM PARMEZÃO<br>R$ 9,50",
+                "caption": "BOLINHO DE ARROZ COM PARMEZÃO &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 9,50",
                 "active": false
               },
               {
@@ -2647,7 +2647,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/entrecte-799x500.jpg",
                 "alt": "Entrecotê",
                 "customStyle1": "display-7",
-                "caption": "ENTRECOTÊ<br>R$ 14,30",
+                "caption": "ENTRECOTÊ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 14,30",
                 "active": false
               },
               {
@@ -2659,7 +2659,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/la-trave-bistr-799x500.jpg",
                 "alt": "La trave bistrô",
                 "customStyle1": "display-7",
-                "caption": "LA TRAVE BISTRÔ<br>R$ 19,60",
+                "caption": "LA TRAVE BISTRÔ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 19,60",
                 "active": true
               }
             ]
@@ -2805,7 +2805,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/filet-de-porco-799x500.jpg",
                 "alt": "Filet de porco",
                 "customStyle1": "display-7",
-                "caption": "<b>SEGUNDA-FEIRA</b><br>FILET DE PORCO<br>R$ 17,40",
+                "caption": "<b>SEGUNDA-FEIRA</b><br>FILET DE PORCO &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 17,40",
                 "active": false
               },
               {
@@ -2817,7 +2817,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/medalho-de-filet-799x500.jpg",
                 "alt": "Medalhão de filet",
                 "customStyle1": "display-7",
-                "caption": "<b>TERÇA-FEIRA</b>\n<br>MEDALHÃO DE FILET<br>R$ 15,30",
+                "caption": "<b>TERÇA-FEIRA</b>\n<br>MEDALHÃO DE FILET &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 15,30",
                 "active": false
               },
               {
@@ -2829,7 +2829,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/linguado-de-grelhado-799x500.jpg",
                 "alt": "Linguado de grelhado",
                 "customStyle1": "display-7",
-                "caption": "<b>QUARTA-FEIRA\n</b><br>LINGUADO DE GRELHADO<br>R$ 20,10",
+                "caption": "<b>QUARTA-FEIRA\n</b><br>LINGUADO DE GRELHADO &nbsp; R$ 20,10",
                 "active": false
               },
               {
@@ -2841,7 +2841,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/massas-com-frutos-do-mar-799x500.jpg",
                 "alt": "Massas com frutos do mar",
                 "customStyle1": "display-7",
-                "caption": "<b>QUINTA-FEIRA\n</b><br>MASSAS COM FRUTOS DO MAR&nbsp;<br>R$ 1840",
+                "caption": "<b>QUINTA-FEIRA\n</b><br>MASSAS COM FRUTOS DO MAR&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 18,40",
                 "active": false
               },
               {
@@ -2853,7 +2853,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/bacalhau-de-gadua-799x500.jpg",
                 "alt": "Bacalhau Gadua Mohua",
                 "customStyle1": "display-7",
-                "caption": "<b>SEXTA-FEIRA\n</b><br>BACALHAU GADUA MOHUA&nbsp;<br>R$ 18,30",
+                "caption": "<b>SEXTA-FEIRA\n</b><br>BACALHAU GADUA MOHUA&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 18,30",
                 "active": false
               },
               {
@@ -2865,7 +2865,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/feijoada-799x500.jpg",
                 "alt": "Feijoada",
                 "customStyle1": "display-7",
-                "caption": "<b>SÁBADO</b><br>FEIJOADA<br>R$ 17,50",
+                "caption": "<b>SÁBADO</b><br>FEIJOADA &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 17,50",
                 "active": false
               },
               {
@@ -2877,7 +2877,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/frango-a-molho-pardo-799x500.jpg",
                 "alt": "Frango a molho pardo",
                 "customStyle1": "display-7",
-                "caption": "<b>DOMINGO</b><br>FRANGO A MOLHO PARDO<br>R$ 19,60",
+                "caption": "<b>DOMINGO</b><br>FRANGO A MOLHO PARDO<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 19,60",
                 "active": true
               }
             ]
@@ -3020,7 +3020,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/barone-montalto-tinto-suave-1-600x600.jpg",
                 "alt": "Vinho Barone Montalto",
                 "customStyle1": "display-7",
-                "caption": "VINHO BARONE MONTALTO TINTO SUAVE<br>R$ 2,70 dose",
+                "caption": "VINHO BARONE MONTALTO TINTO SUAVE &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 2,70&nbsp;",
                 "active": false
               },
               {
@@ -3032,7 +3032,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/chalise-branco-seco-de-mesa-1-600x600.jpg",
                 "alt": "Vinho Chalise",
                 "customStyle1": "display-7",
-                "caption": "VINHO CHALISE BRANCO SECO&nbsp;<br>R$ 2,30 dose",
+                "caption": "VINHO CHALISE BRANCO SECO&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 2,30&nbsp;",
                 "active": false
               },
               {
@@ -3044,7 +3044,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/chileno-tinto-gato-neto-1-600x600.jpg",
                 "alt": "Vinho Gato Negro",
                 "customStyle1": "display-7",
-                "caption": "VINHO CHILENO GATO NETRO TINTO SUAVE<br>R$ 2,60",
+                "caption": "VINHO CHILENO GATO NETRO TINTO SUAVE &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 2,60",
                 "active": false
               },
               {
@@ -3056,7 +3056,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/meisterwein-tinto-bord-suave-1-600x600.jpg",
                 "alt": "Vinho Meisterwein ",
                 "customStyle1": "display-7",
-                "caption": "VINHO MEISTERWEIN TINTO BORDÔ SUAVE<br>R$ 4,20 dose",
+                "caption": "VINHO MEISTERWEIN TINTO BORDÔ SUAVE &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 4,20&nbsp;",
                 "active": false
               },
               {
@@ -3068,7 +3068,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/pergola-tinto-seco-1-600x600.jpg",
                 "alt": "Vinho Pérgola Suave",
                 "customStyle1": "display-7",
-                "caption": "VINHO PÉRGOLA TINTO SECO<br>R$ 2,10",
+                "caption": "VINHO PÉRGOLA TINTO SECO<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 2,10",
                 "active": false
               },
               {
@@ -3080,7 +3080,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/prgola-tinto-suave-1-600x600.jpg",
                 "alt": "Vinho Pérgola Suave",
                 "customStyle1": "display-7",
-                "caption": "VINHO PÉRGOLA TINTO SUAVE<br>R$ 2,10",
+                "caption": "VINHO PÉRGOLA TINTO SUAVE<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 2,10",
                 "active": false
               },
               {
@@ -3092,7 +3092,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/salton-vinho-branco-espumante-1-600x600.jpg",
                 "alt": "Vinho Salton ",
                 "customStyle1": "display-7",
-                "caption": "VINHO SALTON BRANCO ESPUMANTE<br>R$ 2,80",
+                "caption": "VINHO SALTON BRANCO ESPUMANTE &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 2,80",
                 "active": false
               },
               {
@@ -3104,7 +3104,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/terrazas-vinho-branco-1-600x600.jpg",
                 "alt": "Vinho Terrazas",
                 "customStyle1": "display-7",
-                "caption": "VINHO TERRAZAS BRANCO<br>R$ 3,10",
+                "caption": "VINHO TERRAZAS BRANCO<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 3,10",
                 "active": true
               }
             ]
@@ -3250,7 +3250,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/antarctica-garrafa-600-ml-3-600x600.jpg",
                 "alt": "cerveja antarctica garrafa",
                 "customStyle1": "display-5",
-                "caption": "CERVEJA ANTARTICA<br>GARRAFA 600 ml<br>R$ 7,10<br>",
+                "caption": "CERVEJA ANTARTICA<br>GARRAFA 600 ml &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 7,10<br>",
                 "active": true
               },
               {
@@ -3262,7 +3262,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/antarctica-lata-350-ml-600x600.jpg",
                 "alt": "cerveja antarctiva lata",
                 "customStyle1": "display-7",
-                "caption": "CERVEJA ANTARCTICA<br>LATA 350 ml<br>R$ 3,49<br>",
+                "caption": "CERVEJA ANTARCTICA<br>LATA 350 ml &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 3,49<br>",
                 "active": false
               },
               {
@@ -3274,7 +3274,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/brahma-garrafa-600-ml-600x600.jpg",
                 "alt": "cerveja brahma garrafa",
                 "customStyle1": "display-7",
-                "caption": "CERVEJA BRAHMA<br>GARRAFA 600 ml<br>R$ 7,20",
+                "caption": "CERVEJA BRAHMA<br>GARRAFA 600 ml &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 7,20",
                 "active": false
               },
               {
@@ -3286,7 +3286,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/brahma-lata-350-ml-599x600.jpg",
                 "alt": "cerveja brahma lata",
                 "customStyle1": "display-7",
-                "caption": "CERVEJA BRAHMA<br>LATA 350 ml<br>R$ 3,52",
+                "caption": "CERVEJA BRAHMA<br>LATA 350 ml &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R$ 3,52",
                 "active": false
               },
               {
@@ -3298,7 +3298,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/kaiser-garrafa-600-ml-600x600.jpg",
                 "alt": "cerveja kaiser garrafa",
                 "customStyle1": "display-7",
-                "caption": "CERVEJA KAISER&nbsp;<br>GARRAFA 600 ml<br>R$ 6,90",
+                "caption": "CERVEJA KAISER&nbsp;<br>GARRAFA 600 ml &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 6,90",
                 "active": false
               },
               {
@@ -3310,7 +3310,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/kaiser-lata-350ml-600x600.jpg",
                 "alt": "cerveja kaiser lata",
                 "customStyle1": "display-7",
-                "caption": "CERVEJA KAISER<br>LATA 350 ml<br>R$ 3,38",
+                "caption": "CERVEJA KAISER<br>LATA 350 ml &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 3,38",
                 "active": false
               },
               {
@@ -3322,7 +3322,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/skol-garrafa-600-ml-600x600.jpg",
                 "alt": "cerveja skol garrafa",
                 "customStyle1": "display-7",
-                "caption": "CERVEJA SKOL<br>GARRAFA 600 ml<br>R$ 7,00",
+                "caption": "CERVEJA SKOL<br>GARRAFA 600 ml &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 7,00",
                 "active": false
               },
               {
@@ -3334,7 +3334,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/skol-lata-350-ml-4-225x225.jpg",
                 "alt": "cerveja skol lata",
                 "customStyle1": "display-7",
-                "caption": "CERVEJA SKOL&nbsp;<br>LATA 350 ml<br>R$ 3,40",
+                "caption": "CERVEJA SKOL&nbsp;<br>LATA 350 ml &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; R$ 3,40",
                 "active": false
               }
             ]
@@ -3509,7 +3509,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/enrolado-de-salsicha-1200x7503.jpg",
+                "image": "@PROJECT_PATH@/assets/images/enrolado-de-salsicha-1200x7500.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/enrolado-de-salsicha-1200x750-800x500.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
@@ -3533,7 +3533,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/suco-de-hortel-1200x10004.jpg",
+                "image": "@PROJECT_PATH@/assets/images/suco-de-hortel-1200x10001.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/suco-de-hortel-1200x1000-800x666.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
@@ -3545,7 +3545,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/suco-de-limo-1200x10005.jpg",
+                "image": "@PROJECT_PATH@/assets/images/suco-de-limo-1200x10002.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/suco-de-limo-1200x1000-800x666.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
